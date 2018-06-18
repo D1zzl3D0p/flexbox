@@ -1,0 +1,29 @@
+/*This is CSS*/
+
+*{
+	font-family: 'Press Start 2P', cursive;
+}
+
+body{
+	background: url('https://vignette.wikia.nocookie.net/zelda/images/f/f1/Shadow_Beast.png/revision/latest?cb=20090513002822') no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-webkit-animation: blood 30s infinite;
+	animation: blood 5s infinite;
+}
+
+@-webkit-keyframes 'blood'{
+	50%{background-color: red;}
+}
+
+@keyframes 'blood'{
+	50%{background-color: red;}
+}
+
+@-webkit-keyframes 'bloodb'{
+	50%{color: red;}
+}
+
+@keyframes 'bloodb'{
+	50%{color: red;}
+}
+

@@ -1,0 +1,63 @@
+/*CSS*/
+#wind{
+	background: url('https://vignette.wikia.nocookie.net/zelda/images/b/b9/Characters_%28Skyward_Sword%29.png/revision/latest?cb=20111010000515')no-repeat center center fixed;
+}
+#force{
+	background: url('http://images.nintendolife.com/news/2015/01/retrospective_the_legend_of_zelda_the_minish_cap_a_decade_on/attachment/0/original.jpg')no-repeat center center fixed;
+}
+#time{
+	background: url('https://img.etsystatic.com/il/bf0ebb/669609220/il_fullxfull.669609220_pfdk.jpg?version=0') no-repeat center center fixed;
+}
+#decline{
+	background: url('https://www.zeldadungeon.net/wp-content/uploads/2016/12/Link-Staring-at-Death-Mountain-768x491.jpg') no-repeat center center  fixed;
+}
+#twilight{
+	background:url('https://images4.alphacoders.com/214/thumb-1920-21458.jpg') no-repeat center center fixed;
+}
+#sea{
+	background: url('https://www.zeldadungeon.net/Zelda09/The-Wind-Waker-Walkthrough.jpg') no-repeat center center fixed;
+}
+#train{
+	background: url('https://stmed.net/sites/default/files/the-legend-of-zelda%3A-spirit-tracks-hd-wallpapers-33789-1228755.jpg') no-repeat center center fixed;	
+}
+#light{
+	background: url('https://stmed.net/sites/default/files/the-legend-of-zelda%3A-a-link-to-the-past-hd-wallpapers-33782-6116564.jpg') no-repeat center center fixed;
+}
+#decline{
+	background: url('https://www.zeldadungeon.net/wp-content/uploads/2016/12/Link-Staring-at-Death-Mountain-768x491.jpg') no-repeat center center fixed;
+}
+#wild{
+	background: url('https://images.alphacoders.com/789/thumb-1920-789452.jpg') no-repeat center center fixed;
+}
+
+#links{	
+	background-position: center center;	
+	margin: 10px;
+}
+
+#header{
+	height:100px;
+}
+
+.link{
+	background-position: center center;	
+	float:left;
+	height: 500px;
+	width: 100%;
+	margin: 30px;
+}
+
+h2{
+	display: inline;
+}
+
+div{
+	border-radius: 5px;
+	padding: 5px;
+}
+head{
+	height:40px;
+}
+body{
+	background-color: #004d00;
+}

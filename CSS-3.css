@@ -1,0 +1,41 @@
+/*CSS*/
+#seizure{
+	height:500px;
+	width:100%;
+	background-color: #ffff00;
+	-webkit-animation: seizure 0.5s infinite;
+	animation: seizure 0.5s infinite;
+	font-size: 3em;
+	text-align:center;
+}
+
+#seizure:hover{
+	background-color: #0000cc;
+	-webkit-animation: SEIZURE 0.5s infinite;
+	animation: SEIZURE 0.5s infinite;
+
+}
+
+@-webkit-keyframes'seizure'{
+	50%{
+		background-color: #1aff1a
+	}
+}
+
+@keyframes 'seizure'{
+	50%{
+		background-color: #1aff1a
+	}
+}
+
+@-webkit-keyframes'SEIZURE'{
+	50%{
+		background-color: #ff0000
+	}
+}
+
+@keyframes 'SIEZURE'{
+	50%{
+		background-color: #ff0000
+	}
+}
