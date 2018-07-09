@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Index</title>
+
+        <style>
+
+            body{
+                margin: 0;
+                padding: 0;
+            }
+
+            .container{
+                margin: 0;
+                height: calc(100vh - 20px);
+                width: calc(100wh - 20px);
+                border: 10px solid red;
+                display:flex;
+                justify-content: center;
+                align-items:center;
+            }
+
+            .blocks{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 1000px;
+            }
+
+            .block{
+                height:200px;
+                background-color: cadetblue;
+                margin:20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .b1{
+                /* flex-basis: 400px; */
+                /* flex-grow: 4; */
+                /* flex-shrink: 1; */
+            }
+
+            .b2{
+                /* flex-basis: 100px; */
+                /* flex-grow: 1; */
+                /* flex-shrink: 4; */
+            }
+
+            .b3{
+                /* flex-basis: 200px; */
+                /* flex-grow: 2; */
+                /* flex-shrink: 2; */
+            }
+        
+        </style>
+
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="blocks">
+                <div class="block b1" >1</div>
+                <div class="block b2" >2</div>
+                <div class="block b3" >3</div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+    </body>
+</html>

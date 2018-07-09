@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+        <title>Flexbox</title>
+
+        <style>
+            body{
+                background-color: rgb(212, 53, 53);
+                font-family: 'Poppins', sans-serif;
+            }
+        
+            .error_wrapper{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                flex-direction: column;
+            }
+
+            .error_wrapper > .error_heading{
+                margin-bottom: 42px;
+            }
+
+           img{
+               width: 60%;
+           } 
+        
+        </style>
+
+
+        
+
+
+    </head>
+    <body>
+        <div class="error_wrapper">
+            <div class="error_heading">
+                <h2>This isn't getting fixed anytime soon...</h2>
+            </div>
+            <img src="tbot.png"alt="Cat"/>
+
+        </div>
+    
+    </body>
+</html>
